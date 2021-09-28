@@ -5,16 +5,52 @@ body{
 	color: #444;
 	font-weight: 400;
 }
+#container {
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+padding-bottom: 50px;
+}
+
+#title{
+	font-weight: 600px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+
+}
 /* banner name at top */
 #name {
 	font-size: 3em;
 	color: #33485e;
 	text-transform: uppercase;
+	border-bottom: 1px solid #33485e;
+	width: 60%;
+	min-width: 300px;
+	margin: 0 auto;
+	text-align: center;
+	}
+
+.description { 
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 0px;
+	margin-left: 0px;
+	}
+
+.menu {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	display: inline;
 }
 /*no image displayed here*/
 img {
 	display: none;
 }
+
 
 /*my title*/
 b {
@@ -23,30 +59,55 @@ b {
 	color: #33485e;
 }
 /*filled in box section titles*/
-h2 {
+.sectionheader {
 	font-size: 1.5em;
 	text-transform: uppercase;
 	background-color: #33485e;
 	color: white;
 	font-weight: 400;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 70%;
+	min-width: 300px;
 }
 /*job titles*/
-h3 {
+.jobtitle {
 	font-weight:  600;
 	font-size:  1.5em;
 }
 /*job organization*/
-h4 {
+.organization {
 	font-weight: 400;
-	font-size: 1.5em;
+	font-size: 1.25em;
 }
 /*job dates*/
-h6 {
-	font-weight:  400;
-	font-style:  italic;
+.date {
+	font-weight: 400;
+	font-style: italic;
 	font-size: 1em;
+	margin-top: 2px;
+	margin: 0px;
 }
 /*organized list of contact info, skills, education*/
-ul li{
+.menu{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	display: inline;
 	font-size: 1em;
 }
+#degrees{
+	margin-top: 5px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+#do{
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+}
+
