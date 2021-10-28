@@ -1,0 +1,72 @@
+#content {
+	margin: 0 auto;
+	width: 900px;
+	font: Helvetica, sans-serif;
+}
+
+#byline {
+	font-family: Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: italic;
+	color: darkred;
+}
+
+#masthead {
+	position: relative;
+	text-align: center;
+	font-family: "Times New Roman", Arial, sans-serif;
+	font-style: italic;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 4em;
+	color: darkred;
+}
+
+#masthead img {
+	max-width: 100%;
+	height: 150px;
+	min-width: 900px;
+}
+
+.body {
+	font:  Georgia, Serif;
+	font-size: 13px;
+}
+.images img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+p {
+	font-family: "Times New Roman", Arial, sans-serif;
+}
+
+.caption {
+	position: absolute; 
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 1 em;
+	display: table-caption;
+  	text-align: center;
+	color: black;
+	font-family: "Times New Roman", Arial, sans-serif;
+} 
+
+blockquote {
+	font:"Times New Roman", sans-serif;
+	font-size: 25px;
+	font-style: italic;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: darkred;
+	margin-left: 60px;
+	padding-left: 20px;
+	border-left: 4px solid #ccc;
+}
