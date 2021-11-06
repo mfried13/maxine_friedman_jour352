@@ -1,0 +1,29 @@
+.navbar-brand{
+	font-family: "Times New Roman";
+}
+
+
+a {
+	font-family: "Times New Roman";
+	color: black;
+
+}
+
+.nav justify-content-center {
+	font-family: "Times New Roman";
+	color: black;
+}
+
+.body {
+	background-color: lightyellow;
+	font-family: "Times New Roman";
+	text-align: center;
+}
+
+.body-text {
+	font-family: "Times New Roman";
+	text-align: left;
+	background-color: lightyellow;
+}
+
+
