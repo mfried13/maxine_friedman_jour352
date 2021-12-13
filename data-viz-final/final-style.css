@@ -1,0 +1,69 @@
+.container {
+	width:1000px;
+    margin:0 auto;
+    padding:10px 25px;
+    border:1px solid #ccc;
+    background:#fff; 
+    border-color: black;
+    border-width: 20px;
+}
+
+#masthead {
+	position: relative;
+	text-align: center;
+	background-color: darkred;
+	text-align: center;
+}
+
+.centered {
+	text-align: center;
+	font-family: "Times New Roman", sans-serif;
+	font-size: 100px; 
+	font-color: black;
+}
+
+#content {
+	text-align: center;
+	font-family: "Times New Roman", sans-serif;
+	font-size: 40px;
+	font-color: black;
+}
+
+#byline {
+	text-align:  left;
+	font-family: "Times New Roman", sans-serif;
+	font-size: 20px;
+}
+
+.header {
+	font-family: "Times New Roman", sans-serif; 
+	color: darkred;
+	text-align: left;
+	font-style: italic;
+}
+
+
+.text {
+	font-family: "Times New Roman", sans-serif;
+}
+
+.blockquote {
+	font-family: Georgia, "Times";
+	font-style: italic;
+	color: darkred;
+}
+
+img {
+	float: left;
+	width: 300px;
+	height: 200px;
+	padding: 1px;
+}
+
+img {
+	float: left;
+	width: 400px;
+	height: 300px;
+	padding: 10px;
+}
+
